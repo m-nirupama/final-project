@@ -1,0 +1,13 @@
+{% extends 'layout.html' %}
+{% block body %}
+<section class="text-center py-5" style="background-color: #f5f5f5;">
+    <div class="container">
+        <h1 class="display-4 mb-4">🌾 Welcome to Smart Farm</h1>
+        <p class="lead mb-5">Empowering Farmers with AI-Driven Disease Detection</p>
+        <div>
+            <a href="{{ url_for('login') }}" class="btn btn-primary btn-lg mx-2">Login</a>
+            <a href="{{ url_for('signup') }}" class="btn btn-success btn-lg mx-2">Signup</a>
+        </div>
+    </div>
+</section>
+{% endblock %}
